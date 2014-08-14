@@ -111,6 +111,12 @@ http://susy.oddbird.net/
 
 ##### box-sizing done right...
 
+what is box-sizing?
+
+http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+and how singularity fixes it:
+
 https://github.com/Team-Sass/Singularity/wiki/Output-Options#box-sizing-border-box
 
     * {
