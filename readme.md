@@ -26,9 +26,9 @@
 
 #### links
 
-http://www.browsersync.io/
-http://breakpoint-sass.com/
-https://github.com/Team-Sass/Singularity
+* http://www.browsersync.io/
+* http://breakpoint-sass.com/
+* https://github.com/Team-Sass/Singularity
 
 #### notes
 
@@ -36,7 +36,7 @@ https://github.com/Team-Sass/Singularity
 
 #### no-query-fallback
 
-https://github.com/Team-Sass/breakpoint/wiki/No-Query-Fallbacks
+* https://github.com/Team-Sass/breakpoint/wiki/No-Query-Fallbacks
 
 #### sass placeholder
 
@@ -67,3 +67,13 @@ https://github.com/Team-Sass/breakpoint/wiki/No-Query-Fallbacks
 
     @include demo() => uses padding 5em, background-color red
     @include demo(10em, white) => uses padding 10em, background-color white
+
+#### singularity notes
+
+will need to use clear: left/right/both; otherwise your grids will push against each other.
+
+https://github.com/Team-Sass/Singularity/wiki/Installation#singularity-demos
+
+**isolation approach**
+
+flexbox => css3/4
