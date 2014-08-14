@@ -102,3 +102,7 @@ http://susy.oddbird.net/
     }
       
 ...aka newspaper columns
+
+    @include layout(5) {
+        .. five column layout
+    }
