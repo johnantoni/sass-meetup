@@ -102,9 +102,17 @@ http://susy.oddbird.net/
         clear: both;
       }
     }
-      
+
 ...aka newspaper columns
 
     @include layout(5) {
         .. five column layout
+    }
+
+##### box-sizing done right...
+
+https://github.com/Team-Sass/Singularity/wiki/Output-Options#box-sizing-border-box
+
+    * {
+      @include box-sizing('border-box');
     }
