@@ -12,7 +12,7 @@
 * After the meetup we'll grab a pint nearby
 
 
-####Hands-on
+#### Hands-on
 
 * Breakpoint Intro - http://sassmeister.com/gist/73a53395a4df14a38aab
 * no-query support by class - http://sassmeister.com/gist/7b8dded03df82d92970c
@@ -67,6 +67,8 @@
 
     @include demo() => uses padding 5em, background-color red
     @include demo(10em, white) => uses padding 10em, background-color white
+
+------
 
 #### singularity notes
 
