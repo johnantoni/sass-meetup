@@ -82,3 +82,22 @@ flexbox => css3/4
 There is susy but it doesn't support asymetric grids,
 
 http://susy.oddbird.net/
+
+##### layout(3) {...}
+
+    @include layout(3){
+      @include demo(4em, blue);
+      &:nth-child(3n+1) {
+        @include grid-span(1,1);
+        clear: both;
+      }
+      &:nth-child(3n+2) {
+        @include grid-span(1,2);
+        clear: both;
+      }
+      &:nth-child(3n+3) {
+        @include grid-span(1,3);
+        clear: both;
+      }
+    }
+      
