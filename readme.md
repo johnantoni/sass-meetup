@@ -74,7 +74,7 @@ will need to use clear: left/right/both; otherwise your grids will push against 
 
 https://github.com/Team-Sass/Singularity/wiki/Installation#singularity-demos
 
-**isolation approach**
-**asymetric grid**
+* **isolation approach**
+* **asymetric grid**
 
 flexbox => css3/4
