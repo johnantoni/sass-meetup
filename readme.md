@@ -28,6 +28,7 @@
 
 http://www.browsersync.io/
 http://breakpoint-sass.com/
+https://github.com/Team-Sass/Singularity
 
 #### notes
 
@@ -36,3 +37,18 @@ http://breakpoint-sass.com/
 #### no-query-fallback
 
 https://github.com/Team-Sass/breakpoint/wiki/No-Query-Fallbacks
+
+#### sass placeholder
+
+    %demo--base {
+      background-color: rgba(255,100,100, 0.5);
+      border: 2px dashed grey;
+      text-align: center;
+      padding-top: 5em;
+      padding-bottom: 5em;
+      margin-bottom: 1em;
+    }
+
+    header {
+      @extend %demo--base;
+    }
