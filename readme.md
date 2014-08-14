@@ -68,6 +68,12 @@
     @include demo() => uses padding 5em, background-color red
     @include demo(10em, white) => uses padding 10em, background-color white
 
+#### eq.js
+
+https://github.com/gerhardberger/eqjs
+
+Eq.js is a JavaScript module, that let you do simple, deep and custom equalisations.
+
 ------
 
 #### singularity notes
