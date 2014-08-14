@@ -78,3 +78,7 @@ https://github.com/Team-Sass/Singularity/wiki/Installation#singularity-demos
 * **asymetric grid**
 
 flexbox => css3/4
+
+There is susy but it doesn't support asymetric grids,
+
+http://susy.oddbird.net/
