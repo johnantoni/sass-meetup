@@ -52,3 +52,18 @@ https://github.com/Team-Sass/breakpoint/wiki/No-Query-Fallbacks
     header {
       @extend %demo--base;
     }
+
+#### sass mixin
+
+    // Let's make a mixin to help style our demo blocks
+    @mixin demo($padding: 5em, $background-color:red ){
+      padding-top: $padding;
+      padding-bottom: $padding;
+      background-color: rgba($background-color, 0.5);
+      border: 2px dashed $background-color;
+    }
+
+    $background-color:red => :red is the default value, in case you aren't supplied a background-color.
+
+    @include demo() => uses padding 5em, background-color red
+    @include demo(10em, white) => uses padding 10em, background-color white
